@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Form in Html">
+    <meta name="author" content="Null">
+    <meta name="description" content="Form in HTML">
+    <title>Form demo</title>
+    <link href="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/star-icon.png" rel="icon">
+</head>
+<body>
+<form action="success.html">
+    <label for="first name">First name</label>
+    <input type="text" id="field_1" name="first name" placeholder="name" pattern="[A-Za-z]+{1-12}" ><br><br>
+    <label for="last name">Last name</label> 
+    <input type="text" id="field_2" name="last name" placeholder="surname" pattern="[A-Za-z]+{1-12}" ><br><br>
+    <label for="age">Age</label>
+    <input type="number" min="18" max="110" required><br><br>
+    <label for="passwd">Password</label>
+    <input type="password" required minlength="4" maxlength="8" pattern="[a-zA-Z0-9]{4-8}" ><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="emailid"><br><br>
+    <label>Interested Courses:</label><br>
+    <input type="checkbox" id="check1" value="java" name="Courses"> <label for="check1">JAVA</label>
+    <input type="checkbox" id="check2" value="C" name="Courses"> <label for="check2">C</label>
+    <input type="checkbox" id="check3" value="C++" name="Courses"> <label for="check3">C++</label>
+    <input type="checkbox" id="check4" value="Python" name="Courses"> <label for="check4">Python</label>
+    <br><br><br>
+    <label>Gender</label>
+    <input type="radio" id="radio1" value="Male" name="Gender"> <label for="radio1">Male</label>
+    <input type="radio" id="radio2" value="Female" name="Gender"> <label for="radio2">Female</label>
+    <br><br>
+    <label>Nationality</label>
+    <input type="radio" id="radio3" value="Indian" name="Nationality"> <label for="radio3">Indian</label>
+    <input type="radio" id="radio4" value="NRI" name="Nationality"> <label for="radio4">NRI</label>
+    <br><br>
+    <label for="color1">Color</label><input type="color" id="color1" value="color" name="color"> <br><br>
+    <label for="range1">Range</label><input type="range" id="range1" value="range" name="range"> <br><br>
+    <label for="month1">Month</label><input type="month" id="month1" value="month" name="month"><br><br>
+    <label for="time1">Time</label><input type="time" id="time1" value="time" name="time"> <br><br>
+    <label for="week1">Week</label><input type="week" id="week1" value="week" name="week"><br><br>
+    <label for="file1">File</label><input type="file" id="file1" value="file" name="file"><br><br>
+    <label for="hidden1">Hidden</label><input type="hidden" id="hidden1" value="hidden" name="hidden"><br><br>
+    <input type="hidden" value="56" name="hid" id="hide"><br>
+    <input type="image" src="Myimages/x.jpg" height="50" width="50"><br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
+</html>
